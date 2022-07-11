@@ -1,1 +1,153 @@
+table, tr, td, th
+	{
+		border:1px solid black;
+		border-collapse: none;
+	}
 
+tr:hover
+	{
+		background-color:white;
+	}
+
+tr:nth-child(odd)
+	{
+		background-color:#fddeca;
+	}
+
+tr
+	{
+		background-color:white;
+	}
+
+th
+	{
+		background-color:white;
+	}
+
+td
+	{
+		padding: 17px;
+		text-align: left;
+	}
+
+div.menu
+	{
+		padding: 20px;
+		background-color:black;
+	}
+
+ul
+	{
+	list-style-type:none;
+	background-color:aqua;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	}
+
+li
+	{
+		float:left;
+
+	}
+
+li a
+	{
+		display: block;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		color: black;
+	}
+
+li a:hover
+	{
+		background-color: silver;
+	}
+
+ul
+	{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: white;
+	}
+
+div.kotakbesar
+	{
+		float:right;
+		width:50%;
+		height:600;
+		background-color:white;
+	}
+
+a.btn-get-started
+	{
+		font-family: "Poppins", sans-serif;
+  		text-transform: uppercase;
+	  	font-weight: 500;
+	  	font-size: 16px;
+	  	letter-spacing: 1px;
+	  	display: inline-block;
+	  	padding: 8px 28px;
+	  	border-radius: 50px;
+	  	transition: 0.5s;
+	  	margin: 10px;
+	  	border: 2px solid #fff;
+	  	color: #fff;
+	}
+
+a.btn-get-started:hover
+	{
+		background: #2dc997;
+  		border: 2px solid #2dc997;
+	}
+
+div.kotak1
+	{
+		float:left;
+		width: 25%;
+		height: 175px;
+		background-color: white;
+	}
+
+div.kotak2
+	{
+		float:left;
+		width: 25%;
+		height: 175px;
+		background-color: pink;
+	}
+
+div.kotak3
+	{
+		float:left;
+		width: 25%;
+		height: 175px;
+		background-color: white;
+	}
+
+div.kotak4
+	{
+		float:left;
+		width: 25%;
+		height: 175px;
+		background-color: pink;
+	}
+
+div.kotak5
+	{
+		float:left;
+		width: 50%;
+		height: 250px;
+		background-color: #fe9675;
+	}
+
+div.kotak6
+	{
+		float:left;
+		width: 50%;
+		height: 250px;
+		background-color: #fe9675;
+	}
